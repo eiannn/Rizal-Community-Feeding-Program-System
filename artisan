@@ -1,0 +1,5 @@
+<?php
+
+// Root wrapper: forward artisan commands to the Laravel app folder.
+chdir(__DIR__ . DIRECTORY_SEPARATOR . 'community-feeding-system');
+require __DIR__ . DIRECTORY_SEPARATOR . 'community-feeding-system' . DIRECTORY_SEPARATOR . 'artisan';

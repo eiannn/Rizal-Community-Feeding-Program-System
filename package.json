@@ -1,0 +1,8 @@
+{
+  "name": "feeding-program-management-system-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./community-feeding-system run dev",
+    "build": "npm --prefix ./community-feeding-system run build"
+  }
+}
