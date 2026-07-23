@@ -4,6 +4,6 @@
   "scripts": {
     "postinstall": "npm --prefix ./community-feeding-system install",
     "dev": "npm --prefix ./community-feeding-system run dev",
-    "build": "npm --prefix ./community-feeding-system run build"
+    "build": "npm --prefix ./community-feeding-system run build && node -e \"require('fs').cpSync('community-feeding-system/public', 'public', {recursive: true})\""
   }
 }
