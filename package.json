@@ -2,6 +2,7 @@
   "name": "feeding-program-management-system-root",
   "private": true,
   "scripts": {
+    "postinstall": "npm --prefix ./community-feeding-system install",
     "dev": "npm --prefix ./community-feeding-system run dev",
     "build": "npm --prefix ./community-feeding-system run build"
   }
